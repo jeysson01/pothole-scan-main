@@ -1,7 +1,0 @@
-{
-  "/page": "app/page.js",
-  "/vias/page": "app/vias/page.js",
-  "/detecciones/page": "app/detecciones/page.js",
-  "/api/upload/route": "app/api/upload/route.js",
-  "/api/scan/route": "app/api/scan/route.js"
-}
