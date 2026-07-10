@@ -1,0 +1,11 @@
+# Pothole Scan — Apache (XAMPP / InfinityFree)
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  # En subcarpeta local: RewriteBase /pothole-scan/
+  # En subdominio InfinityFree (raíz): RewriteBase /
+  RewriteBase /pothole-scan-main/
+</IfModule>
+
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+</IfModule>
